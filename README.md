@@ -4,7 +4,7 @@ Example-
 
 My twitter handle @KuokkanenSampo
 
-<img src="https://github.com/sampokuokkanen/weather-in-twitter-name/blob/master/upload/profile.png">
+<img src="https://github.com/sampokuokkanen/twitter-emoji-weather/blob/main/upload/profile.png">
 
 Inspired by the project [Twitter automatic name changer based on your followers](https://github.com/raghavkhanna30/twitter-auto-name-changer), and indeed most of the source is also identical. So thanks for [Raghav Khanna](https://twitter.com/erRaghavKhanna) for the original project!
 
