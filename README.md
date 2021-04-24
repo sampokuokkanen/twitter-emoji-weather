@@ -1,16 +1,15 @@
-# Twitter automatic name changer based on current weather
+# Twitter Emoji Weather
 
 Example-
 
 My twitter handle @KuokkanenSampo
 
-<img src="https://github.com/raghavkhanna30/twitter-auto-name-changer/blob/master/upload/Capture3.PNG">
+<img src="https://github.com/sampokuokkanen/weather-in-twitter-name/blob/master/upload/profile.png">
 
-Inspired by the project 
+Inspired by the project [Twitter automatic name changer based on your followers](https://github.com/raghavkhanna30/twitter-auto-name-changer), and indeed most of the source is also identical. So thanks for [Raghav Khanna](https://twitter.com/erRaghavKhanna) for the original project!
 
 
-
-This bot will automatically change your name based the current weather in your location followers (Written in Python)
+This bot will automatically change your name based the current weather in your location followers (Written in Python) once in 15 minutes. It fetches the current weather using the OpenWeather API. 
 
 ## Usage
 
@@ -29,7 +28,8 @@ Install tweepy:
 go to the twitter developers page. 
 In the Create an app enter the informations like app name, app description and so on. it asked me to clearly explain the reason of how I'm going to use the app
 After reviewing the terms, app will be created. 
-Note down the Consumer API key, Consumer API Secret key and Access token & access token secret keys!
+Add permission to do post requests to the app. 
+Note down the Consumer API key, Consumer API Secret key and access token, access token secret, username, and OpenWeather API keys!
 
 ## Step 2 - updating config.py
 
@@ -40,7 +40,7 @@ after that save it.
   
  ## Heroku deployment
  
- for this you need to create a procfile with worker as mainbot.py and that's it!
+ for this you need to create a Procfile with worker as mainbot.py and that's it! There is a sample one in this repository which you can use. 
  
  
 
