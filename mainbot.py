@@ -47,7 +47,7 @@ def main():
             f'The old weather icon vs the old one: {old_emoji} -> {icon}')
         # Update weather icon and temperature into twitter profile
         api.update_profile(
-            name=f'Sampo Kuokkanen | {current_temp}° in {city} | {icon}')
+            name=f'Sampo Kuokkanen | {round(current_temp)}° in {city} | {icon}')
 
         logger.info("Waiting to refresh..")
         time.sleep(900)
