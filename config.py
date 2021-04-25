@@ -55,7 +55,7 @@ def get_weather(city_name):
     # city is not found
     if x["cod"] != "404":
 
-        return x["weather"][0]["main"]
+        return x
 
     else:
         print(" City Not Found ")

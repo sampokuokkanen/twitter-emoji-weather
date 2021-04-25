@@ -1,8 +1,8 @@
 # Twitter Emoji Weather
 
-Example-
+Example:
 
-My twitter handle @KuokkanenSampo
+My Twitter [@KuokkanenSampo](https://twitter.com/KuokkanenSampo), where you can see this code in action. 
 
 <img src="https://github.com/sampokuokkanen/twitter-emoji-weather/blob/main/upload/profile.png">
 
