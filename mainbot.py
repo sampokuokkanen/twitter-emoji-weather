@@ -42,7 +42,7 @@ def main():
         weather = get_weather(city)
         current_temp = pytemperature.k2c(weather["main"]["temp"])
         old_emoji = current_emoji(user)
-        icon = weather_icon(weather["weather"][0]["main"], ["weather"][0]["description"], old_emoji)
+        icon = weather_icon(weather["weather"][0]["main"], weather["weather"][0]["description"], old_emoji)
         logger.info(
             f'The old weather icon vs the old one: {old_emoji} -> {icon}')
         # Update weather icon and temperature into twitter profile
